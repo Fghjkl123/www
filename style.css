@@ -1,0 +1,118 @@
+body{
+    background-image: url('bg.jpg') ;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    padding: 30px;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.609);
+    padding: 20px;
+    height: 120px;
+}
+header img {
+    width: 100px;
+
+}
+h1{
+    margin: -70px 0px 0px 130px;
+}
+header .q {
+
+    float: right;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: -75px;
+    margin-right: 70px;
+    background: linear-gradient(#4a373700 1%,rgba(0, 0, 0, 0.316) 99%);
+}
+header .q a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(0, 0, 0)
+}
+.q1{
+    margin-left: 140px;
+}
+nav{
+    padding: 20px;
+    background-color: rgba(100, 49, 255, 0.757);;
+}
+main{
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.609);;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    padding: 10px 150px 10px 150px;
+    text-decoration: none;
+    font-size: x-large;
+    color: #ffffff;
+    text-shadow: 1px 0px 1px #000000;
+}
+main .content img {
+    width: 100px;
+    background-color: white;
+    border-radius: 1em;
+    padding: 10px;
+
+}
+.content {
+    display: grid;
+grid-template-columns: minmax(150px,400px) minmax(150px,400px) ;
+grid-template-rows: 290px 290px ;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+aside img{
+    width: 250px;
+    height: 200px;
+}
+aside{
+    background-color: rgba(255, 255, 255, 0.499);
+    float: right;
+    margin-top: -710px;
+    margin-right: 0px;
+    height: 690px;
+    padding-top: 20px;
+    padding: 10px;
+}
+footer{
+    display: grid;
+grid-template-columns: 400px 400px 400px;
+    background-color: rgba(255, 255, 255, 0.609);;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        width: 420px;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        width: 1080px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    body {
+        width: 1280px;
+    }
+}
+       
